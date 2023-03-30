@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import Menu from '../menu/Menu';
-import { StyledHeader, StyledMenuHambureger } from './styles';
+import { StyledHeader, StyledHeaderTitle, StyledMenuHambureger } from './styles';
 
 const Header = () => {
 	const [open, setOpen] = useState(false);
 
 	return (
 		<StyledHeader>
-			<h1>THE PLANETS</h1>
+			<StyledHeaderTitle>THE PLANETS</StyledHeaderTitle>
 			<Menu open={open}/>
 			<StyledMenuHambureger onClick={() => setOpen(!open)} src={handleMenu(open)} alt='' />
 		</StyledHeader>
@@ -16,9 +16,9 @@ const Header = () => {
 
 const handleMenu = open => {
 	if (open) {
-		return '/assets/icon-close.svg';
-	} else {
 		return '/assets/icon-hamburger.svg';
+	} else {
+		return '/assets/icon-close.svg';
 	}
 };
 export default Header;

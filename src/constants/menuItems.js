@@ -1,52 +1,53 @@
 import { v4 } from 'uuid';
+import { colors } from './colors';
 
 const menuItems = [
 	{
 		id: v4(),
 		text: 'MERCURY',
-		color: 'rgb(65, 158, 187)',
+		color: colors.mercury,
 		route: '/'
 	},
 	{
 		id: v4(),
 		text: 'VENUS',
-		color: 'rgb(237, 162, 73)',
+		color: colors.venus,
 		route: '/venus'
 	},
 	{
 		id: v4(),
 		text: 'EARTH',
-		color: 'rgb(109, 46, 213)',
+		color: colors.earth,
 		route: '/earth'
 	},
 	{
 		id: v4(),
 		text: 'MARS',
-		color: 'rgb(209, 76, 50)',
+		color: colors.mars,
 		route: '/mars'
 	},
 	{
 		id: v4(),
 		text: 'JUPITER',
-		color: 'rgb(216, 58, 52)',
+		color: colors.jupiter,
 		route: '/jupiter'
 	},
 	{
 		id: v4(),
 		text: 'SATURN',
-		color: 'rgb(205, 81, 32)',
+		color: colors.saturn,
 		route: '/saturn'
 	},
 	{
 		id: v4(),
 		text: 'URANUS',
-		color: 'rgb(30, 193, 162)',
+		color: colors.uranus,
 		route: '/uranus'
 	},
 	{
 		id: v4(),
 		text: 'NEPTUNE',
-		color: 'rgb(45, 104, 240)',
+		color: colors.neptune,
 		route: '/neptune'
 	}
 ];

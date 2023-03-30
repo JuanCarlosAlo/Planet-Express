@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
 *::before{
 	box-sizing: border-box;
 }
-li{
+ul{
 	list-style: none;
 	padding-left: 0;
 	margin-top: 0;
@@ -30,7 +30,8 @@ body {
 	margin-right: auto;
 
 	color: ${colors.mainColor};
-	background-color: ${colors.secondaryColor};
+	background: url(/assets/background-stars.svg) ,${colors.secondaryColor};
+	overflow: hidden;
 }
 `;
 

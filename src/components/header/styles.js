@@ -11,7 +11,16 @@ const StyledHeader = styled.header`
 	border-bottom: solid 2px ${colors.terciaryColor};
 	@media screen and (min-width: 768px) {
 		justify-content: space-between;
+		flex-direction: column;
 	}
+	@media screen and (min-width: 1024px) {
+		justify-content: space-between;
+		flex-direction: row;
+	}
+`;
+const StyledHeaderTitle = styled.h1`
+	font-family: Antonio, sans-serif;
+	font-size: 1.75rem;
 `;
 
 const StyledMenuHambureger = styled.img`
@@ -20,4 +29,4 @@ const StyledMenuHambureger = styled.img`
 	}
 `;
 
-export { StyledHeader, StyledMenuHambureger };
+export { StyledHeader, StyledMenuHambureger, StyledHeaderTitle };
