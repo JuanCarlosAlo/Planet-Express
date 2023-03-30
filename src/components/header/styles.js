@@ -8,7 +8,16 @@ const StyledHeader = styled.header`
 	padding-left: 2rem;
 	padding-right: 2rem;
 	justify-content: space-between;
-	border-bottom: solid 2px ${colors.quaternaryColor};
+	border-bottom: solid 2px ${colors.terciaryColor};
+	@media screen and (min-width: 768px) {
+		justify-content: space-between;
+	}
 `;
 
-export { StyledHeader };
+const StyledMenuHambureger = styled.img`
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+`;
+
+export { StyledHeader, StyledMenuHambureger };

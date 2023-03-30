@@ -1,20 +1,20 @@
 
 import { menuItems } from "../../constants/menuItems"
-import { StyledMenu, StyledMenuBall, StyledMenuItem ,MenuItemContainer} from "./styles"
+import { StyledMenu,  StyledMenuItem ,MenuItemContainer, StyledMenuIcon} from "./styles"
 
-const Menu =()=>{
+const Menu =({open})=>{
+   
     return(
         <nav>
-        <StyledMenu>
+        <StyledMenu open={open}>
             {
                 menuItems.map(element=>{
                
-                    return <StyledMenuItem key={element.id} to="/venus">
+                    return <StyledMenuItem  bgcolor={element.color} key={element.id} to={element.route} >
                         <MenuItemContainer>
-                        <StyledMenuBall bgColor={element.color}></StyledMenuBall>
                         <div>{element.text}</div>
                         </MenuItemContainer>
-                        <img src="/public/assets/icon-chevron.svg" alt="" />
+                        <StyledMenuIcon src="/assets/icon-chevron.svg" alt="" />
                         
                     </StyledMenuItem>
                 }
