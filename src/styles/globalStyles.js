@@ -31,7 +31,7 @@ body {
 
 	color: ${colors.mainColor};
 	background: url(/assets/background-stars.svg) ,${colors.secondaryColor};
-	overflow: hidden;
+	overflow-x: hidden;
 }
 `;
 

@@ -12,6 +12,7 @@ const StyledHeader = styled.header`
 	@media screen and (min-width: 768px) {
 		justify-content: space-between;
 		flex-direction: column;
+		margin-bottom: 6rem;
 	}
 	@media screen and (min-width: 1024px) {
 		justify-content: space-between;

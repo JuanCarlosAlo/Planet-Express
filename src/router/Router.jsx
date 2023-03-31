@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom"
-
 import { planets } from "../constants/planet"
 import Planet from "../pages/Planet"
 
