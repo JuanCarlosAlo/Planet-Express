@@ -2,7 +2,7 @@
 import { colors } from '../../constants/colors';
 import { StyledMobileTabsContainer, StyledTabElement } from './styles';
 
-const TabsMobile = ({ tabs, color,setTabs,tab }) => {
+const TabsButtons = ({ tabs, color,setTabs,tab }) => {
 	
 	return (
 		<StyledMobileTabsContainer>
@@ -12,6 +12,7 @@ const TabsMobile = ({ tabs, color,setTabs,tab }) => {
 					key={element.id}
 					bgcolor={index === tab ? color : 'transparent'}
 					textcolor={index === tab ? `${colors.mainColor}` : `${colors.terciaryColor}`}
+					number={index}
 				>
 					{element.title}
 				</StyledTabElement>
@@ -20,4 +21,4 @@ const TabsMobile = ({ tabs, color,setTabs,tab }) => {
 	);
 };
 
-export default TabsMobile;
+export default TabsButtons;
