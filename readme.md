@@ -1,6 +1,6 @@
 # Planets
 
-![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/money-making/main/public/assets/readme-0.jpg)
+![Imagen del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/Planet-Express/main/public/assets/readme-3.jpg)
 
 ## Ejemplo en vivo
 
@@ -8,11 +8,11 @@
 
 ## Descripción
 
-Pay Api es una aplicacion de pagos para desarrolladores, se usa para implementar los pagos en las aplicaciones y webs de una forma comoda y segura tanto para los usuarios tanto para los desarroladores.
+The planets es una app con informacion detallada de cada planeta del sistema solar.
 
 ## ¿Qué he aprendido en este proyecto?
 
-En este proyecto aprendi a usar react router para la navegacion entre paginas en react ademas de usar el Layout para establecer el header en todas las paginas sin tener que usar el componente en todas las pages. Ademas de usar constantes en archivos .js a parte para los datos que se repiten.
+En este proyecto aprendi a usar react router y pasara props desde el router a una unica page con informacion de un JSON externo escrito por mi para porder imprimr la informacion dependiendo del planeta escogido, ademas de usar un diseño responsive para movil, tablet y desktop con Styled-components.
 
 ## Tecnologías
 
@@ -31,15 +31,15 @@ Si quieres echar un vistazo al proyecto, te recomiendo:
 
 ## Ordenador
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/money-making/main/public/assets/readme-1.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/Planet-Express/main/public/assets/readme-3.jpg)
 
 ## Estados activos y movil
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/money-making/main/public/assets/README-2.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/Planet-Express/main/public/assets/readme-2.jpg)
 
 ## Parte de Codigo
 
-![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/money-making/main/public/assets/README-3.jpg)
+![Captura del proyecto](https://raw.githubusercontent.com/JuanCarlosAlo/Planet-Express/main/public/assets/readme-1.jpg)
 
 ## Autor
 
