@@ -13,7 +13,7 @@ const StyledLinkContainer = styled.div`
 	}
 `;
 
-const StyledLinkElement = styled.div`
+const StyledLinkElement = styled.a`
 	position: relative;
 	display: flex;
 	justify-content: center;

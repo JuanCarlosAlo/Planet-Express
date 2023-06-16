@@ -45,6 +45,7 @@ const StyledMenuItem = styled(NavLink)`
 		width: 50%;
 		height: 5px;
 		transform: translateX(50%);
+
 		background-color: transparent;
 	}
 	@media screen and (min-width: 768px) {

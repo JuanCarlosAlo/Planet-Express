@@ -3,7 +3,7 @@ import Menu from '../menu/Menu';
 import { StyledHeader, StyledHeaderTitle, StyledMenuHambureger } from './styles';
 
 const Header = () => {
-	const [open, setOpen] = useState(false);
+	const [open, setOpen] = useState(true);
 
 	return (
 		<StyledHeader>
